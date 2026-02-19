@@ -1,38 +1,49 @@
 # MoarDruidSpells
 
-**Version:** 1.0.0  
+**Version:** 1.1.0  
 **Author:** the-xorcist  
-**Release Date:** 2026-02-18
+**Release Date:** 2026-02-19
 
 ## Description
 
-MoarDruidSpells is an Erenshor mod that adds a comprehensive suite of classic EverQuest-inspired Druid spells to the game. This mod expands the Druid class with 15 new spells spanning levels 5-35, including damage-over-time effects, direct damage nukes, crowd control, buffs, and utility spells. All spells are automatically learned when you log in as a Druid character.
+MoarDruidSpells is a comprehensive Druid spell expansion mod for Erenshor, inspired by classic EverQuest druid spell lines. This mod adds a complete suite of custom spells for the Druid class, including damage-over-time effects, direct damage nukes, crowd control, buffs, and utility spells. All spells are automatically learned when you log in and are balanced for Erenshor's level 1-35 progression.
 
-## Features
+## Key Features
 
-- **Crowd Control Spells**: Snare and root enemies with Ensnare, Entangle, and Bind Affinity
-- **Damage-over-Time (DoT)**: Immolate (fire/elemental) and Drifting Death (poison) for sustained damage
-- **Direct Damage Nukes**: Burst of Flame and Inferno for high-impact fire damage
-- **Strength & Resist Buffs**: Strength of Earth/Stone/Storm providing STR boosts and elemental resistances
-- **Defensive Buffs**: Skin Like Nature grants AC, Endurance, and health regeneration
-- **Spirit of the Wolf Line**: 4 tiers of movement speed buffs (Lesser/Normal/Greater/Elder Wolf)
-- **Utility Spells**: Bind and Recall for setting and teleporting to your respawn point
-- **Immersive NPCs**: SimPlayers will whisper or shout requesting Spirit of Wolf buffs (configurable)
+- **20+ Custom Druid Spells** spanning levels 5-35
+- **Crowd Control:** Snare, Ensnare, Entangle (root), and Bind (root)
+- **Damage-over-Time:** Immolate, Drifting Death (poison DoT), and elemental DoTs
+- **Direct Damage:** Burst of Flame and Inferno fire nukes
+- **Movement Buffs:** Complete Spirit of Wolf line (5 tiers) with enhanced movement speed
+- **Defensive Buffs:** Shield of Thorns, Shield of Brambles, Spike Shield (damage shields), and Skin Like Nature (AC buff)
+- **Strength Buffs:** Strength of Nature line for melee enhancement
+- **Utility:** Bind and Recall teleportation system
+- **Auto-Learn System:** All custom spells are automatically learned on login
+- **Optional Portal Spells:** Auto-learn vanilla portal spells for convenient travel
+- **Immersive AI Interaction:** SimPlayers (NPCs) will request Spirit of Wolf buffs from Druid players
 
 ## Installation
 
-1. Install [BepInEx 5.x](https://github.com/BepInEx/BepInEx/releases) for Erenshor
-2. Copy `MoarDruidSpells.dll` to `BepInEx/plugins/` folder
-3. Launch Erenshor
-4. Log in with a Druid character - all spells will be automatically learned based on your level
+1. Install [BepInEx](https://github.com/BepInEx/BepInEx) for Erenshor
+2. Download the latest release of MoarDruidSpells
+3. Copy `MoarDruidSpells.dll` to your `BepInEx/plugins` folder
+4. Launch Erenshor
 
-## Configuration
+The mod will automatically inject all custom spells into the game and add them to your spellbook when you log in with a Druid character.
 
-After first launch, edit `BepInEx/config/the-xorcist.moardruidspells.cfg` to customize:
-- Enable/disable automatic spell learning
-- Toggle SimPlayer SoW requests (whispers/shouts)
-- Choose between classic or modern Spirit of Wolf icon
-- Adjust SoW request frequency
+## Changelog
+
+### v1.1.0 - Initial Release (2026-02-19)
+- Initial release with 20+ custom Druid spells
+- Complete Spirit of Wolf movement buff line (5 tiers)
+- Crowd control spells: Snare, Ensnare, Entangle, Bind
+- Damage spells: Immolate, Drifting Death, Burst of Flame, Inferno
+- Defensive buffs: Shield of Thorns, Shield of Brambles, Spike Shield, Skin Like Nature
+- Strength buffs: Strength of Nature line
+- Utility: Bind/Recall teleportation system
+- Auto-learn system for custom spells
+- Optional auto-learn for vanilla portal spells
+- SimPlayer SoW request system with thank-you responses
 
 ## Source Code
 
