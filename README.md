@@ -1,44 +1,48 @@
 # MoarDruidSpells
 
-**Version:** 1.2.0  
+**Version:** 1.3.0  
 **Author:** the-xorcist  
 **Release Date:** 2026-02-19
 
 ## Description
 
-MoarDruidSpells adds a comprehensive collection of classic EverQuest-inspired druid spells to Erenshor, expanding the druid class with 19 new spells across levels 5-35. This mod brings iconic druid spell lines including Spirit of Wolf movement buffs, damage-over-time spells, direct damage nukes, crowd control abilities, protective buffs, and utility teleportation spells.
+MoarDruidSpells is a comprehensive Druid spell expansion mod for Erenshor, inspired by classic EverQuest druid spell lines. This mod adds a complete suite of druid spells spanning levels 1-35, including damage-over-time effects, direct damage nukes, crowd control, buffs, utility spells, and more. All spells are automatically learned when you log in as a Druid character.
 
 ## Features
 
-- **Spirit of Wolf Line** - 4 tiers of movement speed buffs (levels 5, 15, 25, 35)
-- **Crowd Control** - Snare and Ensnare for slowing enemies, plus Entangle root spell
-- **Damage Over Time** - Immolate (fire DoT with AC debuff) and Drifting Death (poison DoT)
-- **Direct Damage** - Burst of Flame and Inferno fire nukes
-- **Strength & Resist Buffs** - Strength of Earth/Stone/Storm providing STR and all resistances
-- **Protective Buffs** - Skin Like Nature (AC + Endurance + HoT), Shield of Brambles/Thorns/Spikes (damage shields)
-- **Utility Teleportation** - Bind (set respawn point) and Recall (teleport to bind point)
-- **Auto-learn on login** - All custom spells are automatically learned when you log in
-- **Portal spell access** - Optional configuration to auto-learn all vanilla portal spells
+- **20+ New Druid Spells** across multiple spell lines:
+  - **Crowd Control:** Snare, Ensnare, Entangle (root), Bind (root)
+  - **Damage-over-Time:** Immolate, Drifting Death (poison DoT)
+  - **Direct Damage:** Burst of Flame, Inferno (fire nukes)
+  - **Movement Buffs:** Complete Spirit of Wolf line (levels 5-35) with progressive speed increases
+  - **Defensive Buffs:** Skin Like Nature, Shield of Brambles, Shield of Thorns, Spike Shield (damage shields and AC buffs)
+  - **Strength Buffs:** Strength of Nature line
+  - **Utility:** Bind and Recall teleportation spells
+- **Auto-Learn System:** All custom spells are automatically learned when you log in (configurable)
+- **Portal Spell Access:** Optional auto-learning of all vanilla portal/teleport spells
+- **Immersive NPC Interactions:** SimPlayers (NPCs) will request Spirit of Wolf buffs via whispers and zone shouts
+- **EverQuest-Inspired Design:** Spell progression and mechanics adapted from classic EQ druid spell lines
+- **Custom Spell Icons:** Unique 64x64 icons for all new spells
 
 ## Installation
 
-1. Install BepInEx for Erenshor (if not already installed)
-2. Copy `MoarDruidSpells.dll` to your `BepInEx/plugins` folder
-3. Launch the game
+1. Install [BepInEx](https://github.com/BepInEx/BepInEx) for Erenshor (version 5.x)
+2. Download the latest release of MoarDruidSpells
+3. Copy `MoarDruidSpells.dll` to your `BepInEx/plugins` folder
+4. Launch Erenshor
 
-The mod will automatically inject the new spells into the game database and make them available to druid characters.
+The mod will automatically load and inject the new spells into the game.
 
 ## Changelog
 
-### v1.2.0 - Initial Release (2026-02-19)
-- Added 19 custom druid spells across 8 spell lines
-- Implemented Spirit of Wolf movement buff progression (4 tiers)
-- Added crowd control spells: Snare, Ensnare, Entangle
-- Added damage spells: Immolate, Drifting Death, Burst of Flame, Inferno
-- Added buff spells: Strength line (3 tiers), Skin Like Nature, Shield line (3 tiers)
-- Added utility spells: Bind and Recall
-- Auto-learn functionality for custom and portal spells
-- Custom spell icons for all new spells
+### v1.3.0 - Initial Release (2026-02-19)
+- Initial public release
+- 20+ custom druid spells across all major spell lines
+- Auto-learn system for custom and portal spells
+- SimPlayer SoW request system
+- Complete Spirit of Wolf progression (5 tiers)
+- Bind/Recall teleportation system
+- Damage shields, DoTs, nukes, snares, roots, and buffs
 
 ## Source Code
 
