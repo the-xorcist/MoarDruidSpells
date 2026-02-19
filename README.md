@@ -1,49 +1,44 @@
 # MoarDruidSpells
 
-**Version:** 1.1.0  
+**Version:** 1.2.0  
 **Author:** the-xorcist  
 **Release Date:** 2026-02-19
 
 ## Description
 
-MoarDruidSpells is a comprehensive Druid spell expansion mod for Erenshor, inspired by classic EverQuest druid spell lines. This mod adds a complete suite of custom spells for the Druid class, including damage-over-time effects, direct damage nukes, crowd control, buffs, and utility spells. All spells are automatically learned when you log in and are balanced for Erenshor's level 1-35 progression.
+MoarDruidSpells adds a comprehensive collection of classic EverQuest-inspired druid spells to Erenshor, expanding the druid class with 19 new spells across levels 5-35. This mod brings iconic druid spell lines including Spirit of Wolf movement buffs, damage-over-time spells, direct damage nukes, crowd control abilities, protective buffs, and utility teleportation spells.
 
-## Key Features
+## Features
 
-- **20+ Custom Druid Spells** spanning levels 5-35
-- **Crowd Control:** Snare, Ensnare, Entangle (root), and Bind (root)
-- **Damage-over-Time:** Immolate, Drifting Death (poison DoT), and elemental DoTs
-- **Direct Damage:** Burst of Flame and Inferno fire nukes
-- **Movement Buffs:** Complete Spirit of Wolf line (5 tiers) with enhanced movement speed
-- **Defensive Buffs:** Shield of Thorns, Shield of Brambles, Spike Shield (damage shields), and Skin Like Nature (AC buff)
-- **Strength Buffs:** Strength of Nature line for melee enhancement
-- **Utility:** Bind and Recall teleportation system
-- **Auto-Learn System:** All custom spells are automatically learned on login
-- **Optional Portal Spells:** Auto-learn vanilla portal spells for convenient travel
-- **Immersive AI Interaction:** SimPlayers (NPCs) will request Spirit of Wolf buffs from Druid players
+- **Spirit of Wolf Line** - 4 tiers of movement speed buffs (levels 5, 15, 25, 35)
+- **Crowd Control** - Snare and Ensnare for slowing enemies, plus Entangle root spell
+- **Damage Over Time** - Immolate (fire DoT with AC debuff) and Drifting Death (poison DoT)
+- **Direct Damage** - Burst of Flame and Inferno fire nukes
+- **Strength & Resist Buffs** - Strength of Earth/Stone/Storm providing STR and all resistances
+- **Protective Buffs** - Skin Like Nature (AC + Endurance + HoT), Shield of Brambles/Thorns/Spikes (damage shields)
+- **Utility Teleportation** - Bind (set respawn point) and Recall (teleport to bind point)
+- **Auto-learn on login** - All custom spells are automatically learned when you log in
+- **Portal spell access** - Optional configuration to auto-learn all vanilla portal spells
 
 ## Installation
 
-1. Install [BepInEx](https://github.com/BepInEx/BepInEx) for Erenshor
-2. Download the latest release of MoarDruidSpells
-3. Copy `MoarDruidSpells.dll` to your `BepInEx/plugins` folder
-4. Launch Erenshor
+1. Install BepInEx for Erenshor (if not already installed)
+2. Copy `MoarDruidSpells.dll` to your `BepInEx/plugins` folder
+3. Launch the game
 
-The mod will automatically inject all custom spells into the game and add them to your spellbook when you log in with a Druid character.
+The mod will automatically inject the new spells into the game database and make them available to druid characters.
 
 ## Changelog
 
-### v1.1.0 - Initial Release (2026-02-19)
-- Initial release with 20+ custom Druid spells
-- Complete Spirit of Wolf movement buff line (5 tiers)
-- Crowd control spells: Snare, Ensnare, Entangle, Bind
-- Damage spells: Immolate, Drifting Death, Burst of Flame, Inferno
-- Defensive buffs: Shield of Thorns, Shield of Brambles, Spike Shield, Skin Like Nature
-- Strength buffs: Strength of Nature line
-- Utility: Bind/Recall teleportation system
-- Auto-learn system for custom spells
-- Optional auto-learn for vanilla portal spells
-- SimPlayer SoW request system with thank-you responses
+### v1.2.0 - Initial Release (2026-02-19)
+- Added 19 custom druid spells across 8 spell lines
+- Implemented Spirit of Wolf movement buff progression (4 tiers)
+- Added crowd control spells: Snare, Ensnare, Entangle
+- Added damage spells: Immolate, Drifting Death, Burst of Flame, Inferno
+- Added buff spells: Strength line (3 tiers), Skin Like Nature, Shield line (3 tiers)
+- Added utility spells: Bind and Recall
+- Auto-learn functionality for custom and portal spells
+- Custom spell icons for all new spells
 
 ## Source Code
 
